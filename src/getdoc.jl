@@ -27,7 +27,7 @@ function getdoc(filepath::String; first_head=0, filename_header=0)
         y = "<unsupported language>"
     end
 
-    return y
+    return y * "\n"
 end
 
 """
